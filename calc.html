@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="clr(' ');">
+	<div class="container">
+		<button class="btn clear" onclick="clr(' ');">C</button>
+		<div class="btn" id="tbox"><input type="text" id="txt" value="" disabled></div>
+		<button class="btn" onclick="disp(7);">7</button>
+		<button class="btn" onclick="disp(8);">8</button>
+		<button class="btn" onclick="disp(9);">9</button>
+		<button class="btn op" onclick="disp('+');">+</button>
+		<button class="btn" onclick="disp(4);">4</button>
+		<button class="btn" onclick="disp(5);">5</button>
+		<button class="btn" onclick="disp(6);">6</button>
+		<button class="btn op" onclick="disp('-');">-</button>
+		<button class="btn" onclick="disp(1);">1</button>
+		<button class="btn" onclick="disp(2);">2</button>
+		<button class="btn" onclick="disp(3);">3</button>
+		<button class="btn op" onclick="disp('%');">/</button>
+		<button class="btn" onclick="disp(0);">0</button>
+		<button class="btn" onclick="disp('.');">.</button>
+		<button class="btn submit" onclick="sbmit();">=</button>
+		<button class="btn op" onclick="disp('*');">x</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
